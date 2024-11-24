@@ -1,21 +1,16 @@
- 1. New methodological improvements to RLHF or instruction-following which are specific fine-tuning steps that are taken to make language models better at following user instructions across a range of tasks.
-    - Relevant: papers that discuss specific methods like RLHF, or instruction-tuning datasets, improving these methods, or analyzing them. Usually these papers will explicitly mention RLHF, instruction-following or instruction-tuning.
-    - Not relevant: papers about adaptation to some task. Simply following instructions or inputs are not sufficient.
- 2. Shows new powerful test set contamination or membership inference methods for language models. Test set contamination is the phenomenon where a language model observes a benchmark dataset during pretraining.
-    - Relevant: test statistics that can detect contamination of benchmarks in language models. statistics that can provide guarantees are more interesting. membership inference methods that are general enough to apply to language models are also relevant.
-    - Not relevant: any papers that do not consider language models, or that do not consider test set contamination.
- 3. Shows a significant advance in the performance of diffusion language models.
-    - Relevant: papers that study language models that are also diffusion models. Continuous diffusions are even more relevant, while discrete diffusions are less so.
-    - Not relevant: papers about image diffusions like DALL-E or Stable Diffusion, or papers that do not explicitly mention language models or applications to text.
- 4. Describes new paradigms to evaluating open-ended text generation. Evaluating the outputs of language models is hard, especially in open-ended settings like for chatbots.
-    - Relevant: papers that fundamentally rethink language model evaluation -- especially by accounting for subjectivity or using adversaries.
-    - Not relevant: specific evaluations for specific tasks, identifying new properties or flaws of language models, or simply collecting new data.
- 5. Conducts surveys or provides data into real-world usage and safety properties of language models.
-    - Relevant: papers that create new datasets or surveys on real-world usage of language models.
-    - Not relevant: papers that apply language models to new real-world tasks.
- 6. Studies 'scaling laws' in the context of neural networks. Scaling laws refer to the very clear power-law relationship between the size or computational power used to train a model and the performance of that model.
-    - Relevant: theoretical or conceptual explanation behind scaling laws for language models.
-    - Not relevant: papers that have experiments at different model scales (but do not explicitly fit a scaling law) or papers that mention scaling laws, but the scaling laws are not the central subject of the paper
+ 1. Research on Radar Technologies and Application.
+    - Relevant: Studies exploring specific radar applications such as automotive radar, weather radar, military radar systems, remote sensing, and radar-based object detection and tracking. Research on integrating radar with other technologies (e.g., machine learning for radar signal interpretation, multimodal sensor fusion involving radar).
+    - Not relevant: Research that only tangentially mentions radar in the context of broader studies without significant focus on radar technologies or applications. Studies about other sensing technologies (e.g., LiDAR, sonar) without a primary focus on radar.
+ 2. Papers introducing or improving model architectures, such as Transformers or novel neural networks
+    - Relevant: Papers that discuss new model architectures, such as improvements to Transformers, novel neural network designs, or the introduction of modular architectures. These papers typically detail the architectural changes and the resulting performance enhancements.
+    - Not relevant: Papers that only fine-tune existing architectures or apply current architectures to specific tasks without introducing architectural changes.
+3. Self-Supervised and Unsupervised Learning in Computer Vision. This category covers research on techniques enabling models to learn from unlabeled data in computer vision. The emphasis is on methods that reduce dependency on large labeled datasets by leveraging self-supervised or unsupervised approaches.
+    - Relevant: Papers proposing new self-supervised learning frameworks, innovative pretext tasks for vision models, or improvements in unsupervised feature learning that enhance performance on downstream tasks are relevant. Studies applying contrastive learning or other techniques to effectively utilize unlabeled image or video data also belong here.
+    - Not relevant: Research focusing solely on supervised learning requiring large labeled datasets, or unsupervised methods applied to non-vision domains does not fit into this category.
+ 4. Generative Models for Image Generation and Synthesis. This category involves research on creating realistic images using deep learning-based generative models. It includes the development of models that can generate images from noise or conditional inputs, perform style transfers, translate images from one domain to another, and enhance image resolution.
+    - Relevant: Papers presenting generative adversarial networks (GANs), variational autoencoders (VAEs), or other generative models for creating realistic or high-fidelity images are pertinent. Studies that explore style transfer, image-to-image translation, super-resolution, and controllable or conditional image generation for specific applications also fall under this category. Innovations aimed at enhancing the diversity, quality, or fidelity of generated images are considered relevant..
+    - Not relevant: Research focused on discriminative tasks like classification or detection without involving image generation, studies on image generation that do not leverage deep learning methodologies, or papers that primarily discuss theoretical aspects of generative models without practical implementations are not relevant.
+
 
  In suggesting papers to your friend, remember that he enjoys papers on statistical machine learning, and generative modeling in natural language processing.
  Your friend also likes learning about surprising empirical results in language models, as well as clever statistical tricks.
